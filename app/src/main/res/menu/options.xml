@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+  android:id="@+id/next"
+  android:title="@string/next_game"
+  android:icon="@drawable/ic_next"
+  app:showAsAction="always"/>
+
+  <item
+    android:id="@+id/fast"
+    android:title="@string/play_fast"
+    android:icon="@drawable/ic_fast"
+    app:showAsAction="always"/>
+
+  <item
+    android:id="@+id/pause"
+    android:title="@string/pause"
+    android:icon="@drawable/ic_pause"
+    app:showAsAction="always"
+    android:enabled="false"/>
+
+  <item
+    android:id="@+id/reset"
+    android:title="@string/reset"
+    android:icon="@drawable/ic_reset"
+    app:showAsAction="ifRoom"/>
+
+
+</menu>

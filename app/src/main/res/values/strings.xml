@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">Craps!</string>
+  <string name="next_game">Next Game</string>
+  <string name="play_fast">Play Fast</string>
+  <string name="pause">Pause</string>
+  <string name="reset">Reset</string>
+  <string name="wins_format">Wins: %d</string>
+  <string name="losses_format">Losses: %d</string>
+  <string name="percentage_format">%.2f%%</string>
+</resources>

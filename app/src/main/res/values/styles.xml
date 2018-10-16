@@ -1,0 +1,28 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="tally" parent="AppTheme">
+    <item name="android:textSize">20sp</item>
+    <item name="android:layout_margin">8dp</item>
+  </style>
+
+  <style name="wins" parent="tally">
+    <item name="android:textColor">#FF0aa363</item>
+  </style>
+
+  <style name="losses" parent="tally">
+    <item name="android:textColor">#FF990f0f</item>
+  </style>
+
+  <style name="percentage" parent="tally">
+    <item name="android:textColor">#FF2cdded</item>
+  </style>
+
+</resources>
